@@ -1,0 +1,87 @@
+<style type="text/css">
+
+a:link{
+	color:blue;
+}
+a:visited{
+	color:purple;
+}
+a:hover{
+	color:black;
+}
+header{
+	text-align: center;
+	font-family: 'Exo 2', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	background-color: lightgray;
+	border-style: double;
+	border-color: gray;
+}
+@font-face{
+	font-family: 'Merriweather', serif;
+	src: url("https://fonts.googleapis.com/css?family=Merriweather, serif");
+}
+@font-face{
+	font-family: 'Exo 2', sans-serif;
+	src: url("https://fonts.google.com/?selection.family=Exo+2, sans-serif");
+}
+body{
+	font-family: 'Merriweather', serif;
+	font-size:100%;
+}
+img{
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px gray;
+	margin-right: 20px;
+}
+div.form{
+    	display: block;
+   	text-align: center;
+}
+form{
+    	display: inline-block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	text-align: center;
+	border: medium solid gray;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 60px;
+	padding-left: 60px;
+	background-color: lightgray;
+}
+@media screen and (min-width: 768px) {
+
+.flex-container{
+    
+	display: flex;
+    
+	flex-direction: row;
+    
+	justify-content: space-around;
+
+	background-color: lightgray;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	border-style: solid;
+	border-color: gray;
+}
+
+}
+h2{
+	text-align: center
+}
+footer{
+	background-color: lightgray;
+	border-style: double;
+	border-color: gray;
+}
+h3{
+	background-color: lightgray;
+	height:25px;
+	width:140px;
+}
+
+
